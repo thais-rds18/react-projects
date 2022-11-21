@@ -1,5 +1,5 @@
 header{
-    font-size:270%;
+    font-size:250%;
     height: 15%;
     display: grid;
     grid-template-columns: 2fr 4fr 4fr 2fr;
@@ -10,8 +10,7 @@ header{
     
 }
 header img{
-    height: 13%;
+    height: 90px;
     width: auto;
     margin-left: 5%;
-
 }

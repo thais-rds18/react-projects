@@ -7,6 +7,10 @@ export const ContextProvider = (props) => {
         nome: "teste",
         opinion: "teste",
         responses: "teste",
+        perg1: null,
+        perg2: null,
+        perg3: null,
+
     }
     return (
         <MyContext.Provider value={{ base }}>
