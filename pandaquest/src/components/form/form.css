@@ -1,0 +1,10 @@
+.form{
+    text-align: center!important;
+    background-color: #2D3748;
+    height: 100%;
+    color: white;
+    margin: auto;
+}
+.questHidden{
+    display: none;
+}
