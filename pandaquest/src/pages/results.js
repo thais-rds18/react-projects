@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/header/header';
-import Presentation from '../components/presentation/presentation';
+import Results from '../components/results';
 
-function Home() {
+function Results() {
   return (
     <>
     <Header/>
-    <Presentation/>
+    <Results/>
     </>
   );
 }
 
-export default Home;
+export default Results;

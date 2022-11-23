@@ -21,7 +21,7 @@ function Header() {
                             <BreadcrumbLink href='/'>Home</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
-                            <BreadcrumbLink href='#'>Resultados</BreadcrumbLink>
+                            <BreadcrumbLink href='/results'>Resultados</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
                             <BreadcrumbLink href='#'>Contato</BreadcrumbLink>
