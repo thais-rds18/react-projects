@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Quest from './pages/quest';
 import Quest2 from './pages/quest2';
 import {MyContextProvider} from './context';
-
+import Results from './pages/results'
 function App() {
   return (
     <MyContextProvider>

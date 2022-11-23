@@ -6,54 +6,74 @@ import {
 } from '@chakra-ui/react';
 import './form.css'
 import { Link } from 'react-router-dom';
-import { useMyContext } from '../../context';
+import { useState } from '../../radioContext';
 
 function Form() {
-    const { quest1Value, setQuest1Value } = useMyContext();
-    return (
-<div className='form'>
-        <ChakraProvider>
-            
-                <br />
-                <br />
-                <Heading as='h1' size='2xl' noOfLines={1}> Questionário part 1 </Heading>
-                <br />
-                <Text fontSize='3xl'>Qual o seu vilão favorito da trilogia?</Text>
-                <br />
-                <br />
-                <RadioGroup className='escolhas'>
-                <Radio size='lg' value='1' name="Tailung" colorScheme='white' width={50}>Tailung</Radio>
-                <br />
-                <Radio size='lg' value='2' name="Shen" colorScheme='white' width={50}>Shen</Radio>
-                <br />
-                <Radio size='lg' value='3' name="Kai" colorScheme='white' width={50}>Kai</Radio>
+    const ExampleComponent = () => {
+        const [value, setValue] = useState('small'); const handleChange = (event) => {
+            setValue(event.target.value);
+        }; const handleSubmit = (event) => {
+            event.preventDefault();
+            console.log(event.target.size.value);
+        }; return (
+            <>
+                <ChakraProvider>
+                    <div className='form'>
+                        <h1>Example Component</h1>
+                        <form onSubmit={handleSubmit}>
+                            <RadioGroup
+                                onChange={handleChange}
+                                name="size"
+                                value={value}
+                            >
+                                <label>
+                                    <Radio value="small" />
+                                    <span>Small</span>
+                                </label>
+                                <label>
+                                    <Radio value="medium" />
+                                    <span>Medium</span>
+                                </label>
+                                <label>
+                                    <Radio value="large" />
+                                    <span>Large</span>
+                                </label>
+                            </RadioGroup>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
 
-            </RadioGroup>
-            <br />
-            <br />
-            <section className='questHidden'>
-                <Text fontSize='3xl'>Você acha que ele estava certo?</Text>
-                <RadioGroup>
-                    <Radio size='lg' value='1' colorScheme='white' width={50}>Sim</Radio>
                     <br />
-                    <Radio size='lg' value='2' colorScheme='white' width={50}>Não</Radio>
+                    <br />
+                    <Heading as='h1' size='2xl' noOfLines={1}> Questionário part 1 </Heading>
+                    <br />
+                    <Text fontSize='3xl'>Qual o seu vilão favorito da trilogia?</Text>
+                    <br />
+                    <br />
 
-                </RadioGroup>
-            </section>
-            <br />
-            <br />
-            <Link to="/">
-                <Button id="voltar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Voltar</Button>
-            </Link>
-            <Link to="/quest2">
-                <Button id="continuar2" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Continuar</Button>
-            </Link>
+                    <section className='questHidden'>
+                        <Text fontSize='3xl'>Você acha que ele estava certo?</Text>
+                        <RadioGroup>
+                            <Radio size='lg' value='1' colorScheme='white' width={50}>Sim</Radio>
+                            <br />
+                            <Radio size='lg' value='2' colorScheme='white' width={50}>Não</Radio>
 
-            </ChakraProvider >
-            
-        </div>
-    );
+                        </RadioGroup>
+                    </section>
+                    <br />
+                    <br />
+                    <Link to="/">
+                        <Button id="voltar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Voltar</Button>
+                    </Link>
+                    <Link to="/quest2">
+                        <Button id="continuar2" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Continuar</Button>
+                    </Link>
 
+                </ChakraProvider >
+            </>
+
+        );
+    }
 }
 
 export default Form;
