@@ -27,12 +27,7 @@ export default function Results() {
                 <br />
                 <Text fontSize='3xl'>Cena favorita: {opinion}</Text>
                 <br />
-                <Text fontSize='3xl'>Vilão favorito: {quest1Value}</Text>
-                <br />
-                <Text fontSize='3xl'>Concorda com ele: {quest2}</Text>
-                <br />
-                <Text fontSize='3xl'>Furioso favorito: {quest3}</Text>
-                <br />
+                
                 <Link to={"/"}>
                 <Button id="novoquest" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' >Novo questionário</Button>
                 <br /><br />

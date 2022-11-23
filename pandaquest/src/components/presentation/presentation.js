@@ -4,7 +4,7 @@ import {
     Heading, Text, Input, Textarea, Button
 } from '@chakra-ui/react';
 import './presentation.css'
-import { useMyContext } from '../../context';
+import { useMyContext } from '../../contexts/context';
 import { Link } from 'react-router-dom';
 
 
