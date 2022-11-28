@@ -32,7 +32,8 @@ function Resetar() {
             <Header/>
                 <div style={{
                 textAlign: 'center',
-                fontSize: 'larger'
+                fontSize: 'larger',
+                backgroundColor: '#1a202c'
             }}>
                 <Text>Redirecionando ... </Text>
                 <Spinner tthickness='4px'

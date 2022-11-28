@@ -39,7 +39,7 @@ export default function Presentation() {
                 <Textarea id="txtOpinion" value={opinion} onChange={(txtOpinion) => { setOpinion(txtOpinion.target.value); }} placeholder="Ex.: Po dando o golpe do 'Dedo Woosh' no Tailung" size='lg' width={500} />
                 <br /><br /><br />
             </div>
-            <div style={{ textAlign: 'center', backgrounColor: '#1a202c' }}>
+            <div style={{ textAlign: 'center', backgroundColor: '#1a202c' }}>
                 <br /><br />
                 <Link to={"/quest"}>
                     <Button id="continuar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' >Continuar</Button>

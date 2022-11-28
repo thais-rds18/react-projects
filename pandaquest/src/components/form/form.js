@@ -16,7 +16,7 @@ function Form() {
                 <br />
                 <div style={{
                     textAlign: 'center',
-                    backgrounColor: '#1a202c'
+                    backgroundColor: '#1a202c'
                 }}>
                     <Link to="/">
                         <Button id="voltar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Voltar</Button>

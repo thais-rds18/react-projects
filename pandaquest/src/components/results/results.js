@@ -47,7 +47,7 @@ function Resultado() {
             <br /><br />
             <div style={{
                 textAlign: 'center',
-                backgrounColor: '#1a202c'
+                backgroundColor: '#1a202c'
             }}>
                 <Link to={"/reset"}>
                     <Button id="novoquest" size='lg' color="white" colorScheme='whiteAlpha' variant='solid'>Novo questionário</Button>

@@ -15,7 +15,7 @@ import Header from '../components/header/header';
 
 function Contatos() {
   return (
-    <div style={{backgrounColor: '#1a202c'}}>
+    <div style={{backgroundColor: '#1a202c'}}>
       <ChakraProvider>
         <Header />
         <br /><br />
