@@ -49,6 +49,7 @@ function Selecao() {
                     <br />
                 <div style={{
                     textAlign: 'center',
+                    backgrounColor: '#1a202c'
                 }}>
                     <Link to="/quest">
                         <Button id="voltar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Voltar</Button>

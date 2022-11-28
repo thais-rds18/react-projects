@@ -15,7 +15,7 @@ import Header from '../components/header/header';
 
 function Contatos() {
   return (
-    <>
+    <div style={{backgrounColor: '#1a202c'}}>
       <ChakraProvider>
         <Header />
         <br /><br />
@@ -57,7 +57,7 @@ function Contatos() {
           </CardBody>
         </Card>
       </ChakraProvider>
-    </>
+    </div>
   );
 }
 

@@ -7,22 +7,22 @@ import Header from '../components/header/header';
 function Resetar() {
     const { setNome, setOpinion, setQuest1, setQuest2, setQuest3, setQuest4 } = useMyContext();
     for (let i = 0; i <= 5; i++) {
-        if (i == 0) {
+        if (i === 0) {
             setNome('');
         }
-        if (i == 1) {
+        if (i === 1) {
             setOpinion('');
         }
-        if (i == 2) {
+        if (i === 2) {
             setQuest1('');
         }
-        if (i == 3) {
+        if (i === 3) {
             setQuest2('');
         }
-        if (i == 4) {
+        if (i === 4) {
             setQuest3('');
         }
-        if (i == 5) {
+        if (i === 5) {
             setQuest4('');
         }
     }
