@@ -18,14 +18,14 @@ function Contatos() {
     <div style={{
       backgroundColor: '#1a202c', height: '100%'
     }}>
-      <br />
-      <br />      <ChakraProvider>
+      <ChakraProvider>
         <Header />
         <br /><br />
         <Card width={500} border='4px' style={{
           textAlign: 'center',
           alignItems: 'center',
           margin: 'auto', 
+          height:'100%',
           color:'white'
         }}>
           <CardHeader>
@@ -61,6 +61,7 @@ function Contatos() {
           </CardBody>
         </Card>
       </ChakraProvider>
+      <br /><br /><br /><br />
     </div>
   );
 }
