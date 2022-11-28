@@ -10,6 +10,7 @@ import Contatos from './pages/contatos';
 
 function App() {
   return (
+    <div style={{backgrounColor: '#1a202c'}}>
     <MyContextProvider>
       <Router>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
         </Routes>
       </Router>
     </MyContextProvider>
-
+    </div>
   );
 }
 
