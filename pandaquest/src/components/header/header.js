@@ -24,7 +24,7 @@ function Header() {
                             <BreadcrumbLink href='/results'>Resultados</BreadcrumbLink>
                         </BreadcrumbItem>
                         <BreadcrumbItem>
-                            <BreadcrumbLink href='#'>Contato</BreadcrumbLink>
+                            <BreadcrumbLink href='/contatos'>Contato</BreadcrumbLink>
                         </BreadcrumbItem>
                     </Breadcrumb>
                 </ChakraProvider>

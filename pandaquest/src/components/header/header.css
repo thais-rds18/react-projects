@@ -1,6 +1,6 @@
 header{
     font-size:250%;
-    height: 15%;
+    height: 12vh;
     display: grid;
     grid-template-columns: 2fr 4fr 4fr 2fr;
     background-color: white;
