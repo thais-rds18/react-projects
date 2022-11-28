@@ -13,17 +13,20 @@ function Form() {
         <>
             <ChakraProvider>
                 <Radiobtn />
-                <br />
                 <div style={{
                     textAlign: 'center',
-                    backgroundColor: '#1a202c'
+                    backgroundColor: '#1a202c',
+                    height:'100%'
                 }}>
+                    <br />
                     <Link to="/">
                         <Button id="voltar" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Voltar</Button>
                     </Link>
                     <Link to="/quest2">
                         <Button id="continuar2" size='lg' color="white" colorScheme='whiteAlpha' variant='solid' margin={2}>Continuar</Button>
                     </Link>
+                    <br />
+                    <br />
                 </div>
             </ChakraProvider >
         </>

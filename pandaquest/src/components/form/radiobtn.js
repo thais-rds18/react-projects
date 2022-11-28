@@ -56,11 +56,8 @@ const Radiobtn = () => {
           <br />
           <label>
             <input type="Radio" onClick={() => setQuest3('Talvez (Precisa rever os filmes)')} checked={((quest3 === 'Talvez (Precisa rever os filmes)') ? true : false)} /> Talvez</label>
-          <br />
+          <br /><br />
         </form>
-
-        <br /><br />
-
       </div>
     </>
   )

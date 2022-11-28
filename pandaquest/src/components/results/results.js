@@ -44,11 +44,12 @@ function Resultado() {
                 <Text>{quest4}</Text>
                 <br /><br />
             </div>
-            <br /><br />
             <div style={{
                 textAlign: 'center',
-                backgroundColor: '#1a202c'
+                backgroundColor: '#1a202c', height:'100%'
             }}>
+                <br />
+                <br />
                 <Link to={"/reset"}>
                     <Button id="novoquest" size='lg' color="white" colorScheme='whiteAlpha' variant='solid'>Novo questionário</Button>
                 </Link>

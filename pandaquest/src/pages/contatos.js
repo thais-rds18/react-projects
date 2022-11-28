@@ -15,8 +15,11 @@ import Header from '../components/header/header';
 
 function Contatos() {
   return (
-    <div style={{backgroundColor: '#1a202c'}}>
-      <ChakraProvider>
+    <div style={{
+      backgroundColor: '#1a202c', height: '100%'
+    }}>
+      <br />
+      <br />      <ChakraProvider>
         <Header />
         <br /><br />
         <Card width={500} border='4px' style={{
