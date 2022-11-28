@@ -25,7 +25,8 @@ function Contatos() {
         <Card width={500} border='4px' style={{
           textAlign: 'center',
           alignItems: 'center',
-          margin: 'auto'
+          margin: 'auto', 
+          color:'white'
         }}>
           <CardHeader>
             <Heading size='lg'>Contatos</Heading>
